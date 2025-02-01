@@ -12,5 +12,9 @@ vagrant ssh
 cd topology/leafspine
 make build
 make up
+5. Reflect the change done on the host to the container
+vagrant rsync
+6. Bring down the cluster
+make down
 
 
